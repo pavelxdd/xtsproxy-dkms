@@ -1,0 +1,7 @@
+post_install() {
+  dkms install -m xtsproxy -v dkms
+}
+
+pre_remove() {
+  dkms remove -m xtsproxy -v dkms --all
+}

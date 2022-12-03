@@ -1,0 +1,8 @@
+*
+!.gitignore
+!README.md
+!xtsproxy.c
+!xtsproxy-dkms.install
+!Makefile
+!dkms.conf
+!PKGBUILD
